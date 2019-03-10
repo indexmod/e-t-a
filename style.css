@@ -1,0 +1,139 @@
+body {
+     background-color: #fffff0;
+     display: block;
+     width: 100%;
+     height: 100%;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+ #wrapper {
+     width: 100%;
+     min-width: 100px;
+     max-width: 853px;
+     margin: 0px auto;
+     color: black;
+     padding: 1 1 1 1;
+     opacity: 0.9;
+}
+ h1 {
+     font-family: 'Helvetica Neue', sans-serif;
+     font-weight: 900;
+     font-size: 60px;
+     color: black;
+     line-height: 0.9em;
+}
+ h2 {
+     font-family: 'Helvetica Neue', sans-serif;
+     font-weight: 900;
+     font-size: 50px;
+     color: black;
+     line-height: 0.9em;
+}
+
+ h3 {
+        color: white;
+	font-size: 6em;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	transform: skewY(-15deg);
+}
+
+ hr {
+     border: none;
+     background-color: black;
+     color: black;
+     height: 20px;
+}
+
+ p {
+     font-family: 'Helvetica Neue', sans-serif;
+     font-weight: 400;
+     color: black;
+     font-size: 20px;
+     line-height: 1.5em;
+}
+
+ .see-also {
+     font-family: 'Helvetica Neue', sans-serif;
+     font-weight: 800;
+     font-size: 20px;
+     line-height: 150%;
+}
+
+ ul {
+     font-family: 'Helvetica Neue', sans-serif;
+     font-weight: 400;
+     color: black;
+     font-size: 20px;
+     line-height: 1.5em;
+}
+
+ li {
+     font-family: 'Helvetica Neue', sans-serif;
+     font-weight: 400;
+     color: black;
+     font-size: 20px;
+     line-height: 1.5em;
+}
+
+/* unvisited link */
+ a:link {
+     color: black;
+     text-decoration: none;
+}
+/* visited link */
+ a:visited {
+     color: black;
+     text-decoration: none;
+}
+/* mouse over link */
+ a:hover {
+     color: grey;
+     text-decoration: none;
+}
+/* selected link */
+ a:active {
+     color: black;
+     text-decoration: none;
+}
+ .caption {
+     font-size: 20px;
+     font-family: 'Helvetica Neue', sans-serif;
+     font-weight: 300;
+     color: black;
+     line-height: 110%;
+}
+ .footer {
+     font-family: 'Helvetica Neue', sans-serif;
+     font-weight: 800;
+     font-size: 20px;
+     line-height: 150%;
+}
+ .video-container {
+     position: relative;
+}
+ video {
+     height: auto;
+     vertical-align: middle;
+     width: 100%;
+}
+
+.overlay-desc {
+  background: alpha;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5
+}
+ .overlay-name {
+     color: white;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-family: 'Helvetica Neue', sans-serif;
+     font-size: 5em;
+     text-align: center;
+     line-height: 90%
+}
