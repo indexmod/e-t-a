@@ -31,7 +31,7 @@ body {
 }
 
  h3 {
-        color: white;
+        color: black;
 	font-size: 6em;
 	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 300;
@@ -129,7 +129,7 @@ body {
   z-index: 5
 }
  .overlay-name {
-     color: white;
+     color: black;
      text-transform: uppercase;
      font-weight: 700;
      font-family: 'Helvetica Neue', sans-serif;
