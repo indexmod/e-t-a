@@ -18,8 +18,8 @@ body {
  h1 {
      font-family: 'Helvetica Neue', sans-serif;
      font-weight: 900;
-     font-size: 30px;
-     color: white;
+     font-size: 60px;
+     color: black;
      line-height: 0.9em;
 }
  h2 {
@@ -129,11 +129,11 @@ body {
   z-index: 5
 }
  .overlay-name {
-     color: black;
+     color: white;
      text-transform: uppercase;
      font-weight: 700;
      font-family: 'Helvetica Neue', sans-serif;
-     font-size: 5em;
+     font-size: 3em;
      text-align: center;
-     line-height: 90%
+     line-height: 50%
 }
